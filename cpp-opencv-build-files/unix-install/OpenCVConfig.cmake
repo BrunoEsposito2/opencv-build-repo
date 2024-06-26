@@ -106,7 +106,7 @@ set(OpenCV_SHARED ON)
 set(OpenCV_USE_MANGLED_PATHS FALSE)
 
 set(OpenCV_LIB_COMPONENTS opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio)
-set(__OpenCV_INCLUDE_DIRS "${OpenCV_INSTALL_PATH}/opencv2")
+set(__OpenCV_INCLUDE_DIRS "${OpenCV_INSTALL_PATH}/opencv-build-repo/cpp-opencv-build-files/opencv2")
 
 set(OpenCV_INCLUDE_DIRS "")
 foreach(d ${__OpenCV_INCLUDE_DIRS})
